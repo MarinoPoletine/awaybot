@@ -1,0 +1,11 @@
+{
+  "name": "Slackbot Awaybot",
+  "description": "A scrapes an away calendar and announced in slack!",
+  "repository": "https://github.com/hutchic/awaybot",
+  "keywords": ["slack", "slackbot", "away", "vacation"],
+  "env": {
+    "FEED_URL": "Calendar feed",
+    "SLACK_HOOK_URL": "Slack remote control hook",
+    "NAMES": "Semicolon separated list of names"
+  }
+}
