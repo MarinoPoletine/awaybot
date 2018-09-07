@@ -4,7 +4,7 @@
 2. Follow this link [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 3. Add a slack [incoming webhook]
 4. Copy the `Webhook URL` into the Heroku config `SLACK_HOOK_URL`
-5. Copy the [Bamboo icalendar feed url](https://nulogy.bamboohr.com/feeds/manage.php) into the Heroku config `FEED_URL`
+5. Copy the [Bamboo icalendar feed url](https://nulogycorp.bamboohr.com/feeds/manage.php) into the Heroku config `FEED_URL`
 6. Copy the names of the people on your team exactly as they appear in Bamboo into the Heroku config `NAMES` field
 separated by semicolons
 7. Click Deploy for Free
@@ -28,7 +28,7 @@ Optionally Connect the Application to Github
 # Running it locally
 
 ```
-  export FEED_URL='https://nulogy.bamboohr.com/feeds/feed.php?id=SNIP'
+  export FEED_URL='https://nulogycorp.bamboohr.com/feeds/feed.php?id=SNIP'
   export SLACK_HOOK_URL='https://hooks.slack.com/services/T024K32LX/B060UFKPE/SNIP'
   export NAMES='Marino Poletine;Sam de Boni;Mark Shaw'
   ruby bin/awaybot.rb major
