@@ -1,10 +1,10 @@
 # Running it on Heroku
 
-1. Login to heroku (FreshBooks employees ask IT for heroku access via OKTA)
+1. Login to heroku
 2. Follow this link [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-3. Add a slack [incoming webhook](https://freshbooks.slack.com/services/new/incoming-webhook)
+3. Add a slack [incoming webhook]
 4. Copy the `Webhook URL` into the Heroku config `SLACK_HOOK_URL`
-5. Copy the [Bamboo icalendar feed url](https://freshbooks.bamboohr.com/feeds/manage.php) into the Heroku config `FEED_URL`
+5. Copy the [Bamboo icalendar feed url](https://nulogy.bamboohr.com/feeds/manage.php) into the Heroku config `FEED_URL`
 6. Copy the names of the people on your team exactly as they appear in Bamboo into the Heroku config `NAMES` field
 separated by semicolons
 7. Click Deploy for Free
@@ -18,18 +18,18 @@ separated by semicolons
 Optionally Connect the Application to Github
 ============================================
 
-1. Requires that you have access to the Github repository (FreshBooks employees as in #dev)
+1. Requires that you have access to the Github repository
 2. From the application Deploy->GitHub page click `Connect to GitHub`
 ![](https://lh3.googleusercontent.com/XskjDMkfdxOG2G9zjn2tmpSzef6qAZk0SSHl8KoQv4w=w922-h595-no)
-3. Grant the heroku app access to freshbooks/awaybot
+3. Grant the heroku app access
 ![](https://lh3.googleusercontent.com/Yg3SHpDUS4YEcE1sy2UvrrDSIxSVRQEf37djKvVqrGQ=w923-h444-no)
 4. Click on `Enable Automatic Deploys`
 
 # Running it locally
 
 ```
-  export FEED_URL='https://freshbooks.bamboohr.com/feeds/feed.php?id=SNIP'
+  export FEED_URL='https://nulogy.bamboohr.com/feeds/feed.php?id=SNIP'
   export SLACK_HOOK_URL='https://hooks.slack.com/services/T024K32LX/B060UFKPE/SNIP'
-  export NAMES='Sen Nordstrom;Jason Shaw;Jonathan Yee'
+  export NAMES='Marino Poletine;Sam de Boni;Mark Shaw'
   ruby bin/awaybot.rb major
 ```
