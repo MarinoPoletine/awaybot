@@ -1,11 +1,11 @@
 {
   "name": "Slackbot Awaybot",
-  "description": "A scrapes an away calendar and announced in slack!",
-  "repository": "https://github.com/hutchic/awaybot",
+  "description": "It scrapes an away calendar and announced in slack!",
+  "repository": "https://github.com/MarinoPoletine/awaybot",
   "keywords": ["slack", "slackbot", "away", "vacation"],
   "env": {
-    "FEED_URL": "Calendar feed",
+    "FEED_URL": "https://nulogycorp.bamboohr.com/feeds/feed.php?id=0657ded635930bebe11d91deede7e8fe",
     "SLACK_HOOK_URL": "Slack remote control hook",
-    "NAMES": "Semicolon separated list of names"
+    "NAMES": "Marino Poletine;Sam De Boni;Justin Fitzsimmons;Dhruv Sharma;Mark Shaw"
   }
 }
