@@ -23,8 +23,8 @@ Optionally Connect the Application to Github
 # Running it locally
 
 ```
-  export FEED_URL='https://nulogycorp.bamboohr.com/feeds/feed.php?id=0657ded635930bebe11d91deede7e8fe'
-  export SLACK_HOOK_URL='https://hooks.slack.com/services/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'
-  export NAMES='Marino Poletine;Sam de Boni;Mark Shaw;Dhruv Sharma'
+  export FEED_URL='https://nulogycorp.bamboohr.com/feeds/<SNIP>'
+  export SLACK_HOOK_URL='https://hooks.slack.com/services/<SNIP>'
+  export NAMES='Name;Name'
   ruby bin/awaybot.rb major
 ```
