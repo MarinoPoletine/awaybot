@@ -14,3 +14,9 @@ DEPENDENCIES
   chronic_duration
   icalendar
   slack-notifier
+
+RUBY VERSION
+   ruby 2.2.4p230
+
+BUNDLED WITH
+   1.16.4

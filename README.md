@@ -25,6 +25,6 @@ Optionally Connect the Application to Github
 ```
   export FEED_URL='https://nulogycorp.bamboohr.com/feeds/feed.php?id=0657ded635930bebe11d91deede7e8fe'
   export SLACK_HOOK_URL='https://hooks.slack.com/services/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'
-  export NAMES='Marino Poletine;Sam de Boni;Mark Shaw'
+  export NAMES='Marino Poletine;Sam de Boni;Mark Shaw;Dhruv Sharma'
   ruby bin/awaybot.rb major
 ```
