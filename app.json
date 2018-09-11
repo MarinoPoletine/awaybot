@@ -4,8 +4,8 @@
   "repository": "https://github.com/MarinoPoletine/awaybot",
   "keywords": ["slack", "slackbot", "away", "vacation"],
   "env": {
-    "FEED_URL": "https://nulogycorp.bamboohr.com/feeds/feed.php?id=0657ded635930bebe11d91deede7e8fe",
-    "SLACK_HOOK_URL": "https://hooks.slack.com/services/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",
-    "NAMES": "Marino Poletine;Sam De Boni;Justin Fitzsimmons;Dhruv Sharma;Mark Shaw"
+    "FEED_URL": "https://nulogycorp.bamboohr.com/feeds/<SNIP>",
+    "SLACK_HOOK_URL": "https://hooks.slack.com/services/<SNIP>",
+    "NAMES": "Name;Name"
   }
 }
